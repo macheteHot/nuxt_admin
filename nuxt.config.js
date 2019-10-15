@@ -56,7 +56,6 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    "@nuxtjs/axios",
     '@nuxtjs/proxy'
     // Doc: https://axios.nuxtjs.org/usage
   ],
@@ -68,7 +67,6 @@ module.exports = {
     extend (config, ctx) {
       config.devtool = 'nosources-source-map'
     },
-    vendor:['axios']
   },
   env: {
     config: isProduction ? production : development
