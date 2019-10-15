@@ -1,0 +1,78 @@
+// colors
+$colors: (
+  'primary': #0984e3,
+  'info': #4b67af,
+  'danger': #d63031,
+  'danger-1': #ff7675,
+  'warning':#e17055,
+  'tip':#fdcb6e,
+  'tip-1':#ffeaa7,
+  'blue': #0984e3,
+  'blue-1': #74b9ff,
+  'white': #fff,
+  'white-1': #fcfcfc,
+  'white-2': #eceef0,
+  'light': #f9f9f9,
+  'light-1': #d4d9de,
+  'grey': #dfe6e9,
+  'grey-1':#b2bec3,
+  'dark': #2d3436,
+  'dark-1': #636e72,
+  'blue-dark':#2c2c54,
+  'blue-dark-1':#40407a,
+  'blue-dark-2':#474787,
+  'blue-dark-3':#706fd3,
+  'black': #000,
+);
+$border-color: map-get($colors, 'light-1');
+// font size
+$base-font-size: 1rem;
+$font-sizes: (
+  xxxs:1.111,
+  xxs: 0.6154,
+  xs: 0.7692,
+  sm: 0.9231,
+  md: 1,
+  lg: 1.0769,
+  xl: 1.2308,
+);
+$flex-jc: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+);
+$flex-ai: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch,
+);
+// spacing
+// 0-5: 0
+// .mt-1  => margin top  .pb-2
+$spacing-types: (
+  m: margin,
+  p: padding,
+);
+$spacing-directions: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left,
+);
+$spacing-base-size: 1rem;
+$spacing-sizes: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 1,
+  4: 1.5,
+  5: 3,
+  6: 3.5,
+  7: 4,
+  8: 4.5,
+  9: 5,
+  10: 5.5,
+);
